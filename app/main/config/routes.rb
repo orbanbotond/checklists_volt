@@ -9,6 +9,13 @@ client '/password_reset', component: 'user_templates', controller: 'password_res
 client '/forgot', component: 'user_templates', controller: 'login', action: 'forgot'
 client '/account', component: 'user_templates', controller: 'account', action: 'index'
 
+# Routes for checklists
+# TODO right now this goes to the main_controller
+client '/checklists/{{index}}', action: 'checklists'
+client '/checklists', action: 'checklists'
+# client '/checklists', component: 'user_templates', controller: 'checklists', action: 'index'
+# client '/checklist', component: 'user_templates', controller: 'checklists', action: 'show'
+
 # The main route, this should be last. It will match any params not
 # previously matched.
 client '/', {}

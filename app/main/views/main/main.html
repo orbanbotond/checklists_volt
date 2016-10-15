@@ -7,6 +7,7 @@
       <ul class="nav nav-pills pull-right">
         <:nav href="/">Home</:nav>
         <:nav href="/about">About</:nav>
+        <:nav href="/checklists">Checklists</:nav>
         <:user_templates:menu />
       </ul>
       <h3 class="text-muted">checklists</h3>
@@ -17,7 +18,7 @@
     {{ view main_path, 'body', {controller_group: 'main'} }}
 
     <div class="footer">
-      <p>&copy; Company {{ Time.now.year }}</p>
+      <p>&copy; Logic Optimum {{ Time.now.year }}</p>
     </div>
 
   </div>
