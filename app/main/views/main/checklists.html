@@ -16,7 +16,7 @@
 
       <table class="todo-table">
         {{ _todos.each_with_index do |todo, index| }}
-          <tr e-click="params._index = index"
+          <tr e-click="`console.debug('voala')`;params._index = index"
               class="{{ if (params._index || 0).to_i == index }}selected{{ end }}">
             <td><input type="checkbox" checked="{{ todo._completed }}" /></td>
             <td class="{{ if todo._completed }}complete{{ end }}">{{ todo._name }}</td>
