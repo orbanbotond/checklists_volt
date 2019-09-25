@@ -23,7 +23,7 @@ GEM
     concurrent-ruby-ext (0.8.0)
       concurrent-ruby (~> 0.8.0)
     configurations (2.0.0)
-    csso-rails (0.3.4)
+    csso-rails (0.8.2)
       execjs (>= 1)
     daemons (1.2.4)
     diff-lcs (1.2.5)
@@ -164,7 +164,7 @@ DEPENDENCIES
   capybara (~> 2.4.4)
   chromedriver-helper (~> 1.0.0)
   concurrent-ruby-ext (~> 0.8.0)
-  csso-rails (~> 0.3.4)
+  csso-rails (~> 0.8.2)
   image_optim
   image_optim_pack
   opal-rspec (~> 0.4.2)
