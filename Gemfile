@@ -29,7 +29,7 @@ end
 
 group :test do
   # Testing dependencies
-  gem 'rspec', '~> 3.2.0'
+  gem 'rspec', '~> 3.10.0'
   gem 'opal-rspec', '~> 0.4.2'
   gem 'capybara', '~> 2.4.4'
   gem 'selenium-webdriver', '~> 2.47.1'
